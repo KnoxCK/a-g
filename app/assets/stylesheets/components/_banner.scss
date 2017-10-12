@@ -1,0 +1,67 @@
+.banner {
+  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507809393/Aschenbrenner_landing_przqmd.jpg');
+  color: white;
+  text-align: center;
+  height: calc(100vh);
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.banner-content {
+  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507810330/Aschenbrenner_landing2_kicdsf.jpg');
+  color: white;
+  text-align: center;
+  height: calc(100vh);
+  width: 100%;
+  background-size: cover !important;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 9000;
+  h4 {
+    font-style: italic;
+    margin-top: 10px;
+    font-weight: normal;
+    font-size: 26px;
+    margin-bottom: 100px;
+  }
+  span {
+    color: #ffec3b;
+  }
+}
+.landing-logo {
+  width: 100%;
+}
+.banner-small img{
+  height: 200px;
+  width: 100%;
+  margin-top: 3px;
+}
+@media only screen and (max-width: 462px) {
+  .main-logo {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
