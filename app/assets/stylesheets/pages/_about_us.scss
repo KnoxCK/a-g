@@ -1,0 +1,37 @@
+.about-wrapper {
+  background-color: #211C18;
+  z-index: 9000;
+  position: relative;
+  opacity: 0.95;
+  margin-top: 270px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  position: relative;
+  z-index: 10000;
+  margin: 15px 55px;
+  h4 {
+    padding: 190px 50px 40px 5vw;
+    color: white;
+    width: 600px;
+    background-color: #39414B;
+    opacity: 0.9;
+    text-align: left;
+    font-weight: lighter;
+  }
+  span {
+    color: #ffec3b;
+  }
+}
+.about-strip {
+  width: 100%;
+  z-index: 15000;
+  position: absolute;
+  margin-top: 60px;
+}

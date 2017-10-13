@@ -1,19 +1,19 @@
 .banner {
-  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507809393/Aschenbrenner_landing_przqmd.jpg');
+  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507819853/Aschenbrenner_landing_kdriab.jpg');
   color: white;
   text-align: center;
   height: calc(100vh);
   width: 100%;
   background-size: cover !important;
   background-position: center;
-  position: relative;
+  position: fixed;
   display: flex;
   justify-content: center;
   align-items: center;
   align-content: center;
+  z-index: 0;
 }
 .banner-content {
-  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507810330/Aschenbrenner_landing2_kicdsf.jpg');
   color: white;
   text-align: center;
   height: calc(100vh);
@@ -40,24 +40,32 @@
 .landing-logo {
   width: 100%;
 }
-.banner-small img{
-  height: 200px;
-  width: 100%;
-  margin-top: 3px;
+.landing-strapline {
+  width: 30%;
+  margin-right: 20px;
+  margin-bottom: 150px;
 }
 @media only screen and (max-width: 462px) {
   .main-logo {
     width: 300px;
   }
 }
-
-
-
-
-
-
-
-
+.about-banner {
+  background-image: url('http://res.cloudinary.com/dqxvcdy6w/image/upload/v1507893146/ABOUT_vxy8nw.jpg
+');
+  color: white;
+  text-align: center;
+  width: 100%;
+  background-size: cover !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  z-index: 0;
+}
+.about-strip {
+  width: 100%;
+}
 
 
 

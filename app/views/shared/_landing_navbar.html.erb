@@ -1,13 +1,12 @@
-<div class="navbar-abg">
+<div class="navbar-landing-abg">
 
     <!-- Logo -->
-    <%= link_to root_path, class: "navbar-abg-brand" do %>
-      <!-- <%= image_tag "", class: "navbar-abg-submark" %> -->
+    <%= link_to root_path, class: "navbar-landing-abg-brand" do %>
+      <!-- <%= image_tag "landing-abg_Recruitment_Nav_Logo.png", class: "navbar-landing-abg-submark" %> -->
     <% end %>
 
     <!-- Right Navigation -->
-    <div class="navbar-abg-right hidden-xs hidden-sm">
-        <h5><%= link_to "Home", root_path %></h5>
+    <div class="navbar-landing-abg-right hidden-xs hidden-sm">
         <h5><%= link_to "About Us", about_us_path %></h5>
         <h5><%= link_to "Contact", contact_path %></h5>
         <!-- <div class="navbar-sm">
@@ -24,7 +23,7 @@
     </div>
 
     <!-- Dropdown list appearing on mobile only -->
-    <div class="navbar-abg-item hidden-md hidden-lg">
+    <div class="navbar-landing-abg-item hidden-md hidden-lg">
     <!-- Social Media mobile only -->
       <div class="navbar-sm-mob">
         <%= link_to "https://www.instagram.com", target: "_blank" do %>
@@ -39,7 +38,7 @@
       </div>
       <div class="dropdown">
         <i class="fa fa-bars dropdown-toggle toggle-yellow" data-toggle="dropdown"></i>
-        <ul class="dropdown-menu dropdown-menu-right navbar-abg-dropdown-menu">
+        <ul class="dropdown-menu dropdown-menu-right navbar-landing-abg-dropdown-menu">
           <li><%= link_to "About Us", about_us_path %></li>
           <li><%= link_to "Contact", contact_path %></li>
         </ul>
