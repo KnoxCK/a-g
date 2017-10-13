@@ -19,7 +19,7 @@
   h4 {
     padding: 190px 50px 40px 5vw;
     color: white;
-    width: 600px;
+    width: 42vw;
     background-color: #39414B;
     opacity: 0.9;
     text-align: left;
@@ -34,4 +34,35 @@
   z-index: 15000;
   position: absolute;
   margin-top: 60px;
+}
+.about-us-circle-1 {
+  img {
+    width: 320px;
+    z-index: 20000 !important;
+    position: absolute;
+    top: 26px;
+  }
+  p {
+    position: absolute;
+    top: 26px;
+    z-index: 20000;
+    width: 172px;
+    text-align: center;
+  }
+}
+.about-us-circle-2 {
+  img {
+    width: 320px;
+    z-index: 15000;
+    position: absolute;
+    top: 290px;
+    margin-left: 240px;
+  }
+  p {
+    position: absolute;
+    top: 26px;
+    z-index: 20000;
+    width: 172px;
+    text-align: center;
+  }
 }
