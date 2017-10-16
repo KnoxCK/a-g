@@ -18,7 +18,7 @@
   h4 {
     padding: 190px 50px 40px 5vw;
     color: white;
-    width: 42vw;
+    width: 53vw;
     background-color: #39414B;
     opacity: 0.9;
     text-align: left;
@@ -36,18 +36,21 @@
 }
 .about-us-circle-1 {
     z-index: 200000 !important;
+    position: relative;
+    margin-top: 38px;
   img {
     width: 320px;
     margin-right: 150px;
   }
   p {
     position: absolute;
-    left: 765px;
+    left: 118px;
     top: 100px;
     width: 172px;
   }
 }
 .about-us-circle-2 {
+  position: relative;
   img {
     width: 320px;
     z-index: 15000;
@@ -56,7 +59,7 @@
   p {
     position: absolute;
     width: 172px;
-    left: 962px;
+    left: 309px;
     bottom: 122px;
     text-align: center;
   }

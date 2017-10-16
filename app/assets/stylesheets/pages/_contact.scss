@@ -7,16 +7,16 @@
   width: 100%;
   display: flex;
   z-index: 1000;
+  flex-direction: column;
 }
 .contact-content {
   display: flex;
   align-items: left;
-  justify-content: left;
+  justify-content: center;
   position: relative;
   z-index: 10000;
   margin: 32px 55px;
-  width: 100%;
-  padding: 190px 50px 40px 5vw;
+  padding: 190px 50px 40px 50px;
   background-color: #39414B;
   color: white;
   z-index: 2000;
@@ -55,10 +55,11 @@
 }
 #map {
   height: 400px;
-  width: 75vw;
+  width: 83vw;
   margin: auto;
-  position: relative;
-  top: -60px;
-  z-index:10000;
+  position: absolute;
+  top: 447px;
+  //top: -60px;
+  z-index: 10000;
 }
 
