@@ -16,5 +16,122 @@
 				<p>T + 44 (0) 207 268 4965</p>
 			</div>
 		</div>
-	</div>
+  </div>
 </div>
+<div id="map"></div>
+
+<script>
+  function initMap() {
+    var aG = {lat: 51.507283, lng: -0.143041};
+    var map = new google.maps.Map(document.getElementById('map'), {
+      center: aG,
+      zoom: 17,
+      styles: [
+    {
+        "featureType": "administrative",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "color": "#444444"
+            }
+        ]
+    },
+    {
+        "featureType": "landscape",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#f2f2f2"
+            }
+        ]
+    },
+    {
+        "featureType": "poi",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "road",
+        "elementType": "all",
+        "stylers": [
+            {
+                "saturation": -100
+            },
+            {
+                "lightness": 45
+            }
+        ]
+    },
+    {
+        "featureType": "road.highway",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "simplified"
+            }
+        ]
+    },
+    {
+        "featureType": "road.arterial",
+        "elementType": "labels.icon",
+        "stylers": [
+            {
+                "visibility": "off"
+            }
+        ]
+    },
+    {
+        "featureType": "transit",
+        "elementType": "all",
+        "stylers": [
+            {
+                "visibility": "off"
+            },
+            {
+                "hue": "#ff0000"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "all",
+        "stylers": [
+            {
+                "color": "#ffffff"
+            },
+            {
+                "visibility": "on"
+            }
+        ]
+    },
+    {
+        "featureType": "water",
+        "elementType": "labels.text.fill",
+        "stylers": [
+            {
+                "hue": "#ff0000"
+            }
+        ]
+    }
+],
+      maxZoom: 17,
+      minZoom: 17,
+      zoomControl: false,
+      streetViewControl: false,
+      gestureHandling: 'none'
+    });
+    var marker = new google.maps.Marker({
+      position: aG,
+      map: map,
+      icon: { url: "assets/triangle.png" }
+    });
+    var transitLayer = new google.maps.TransitLayer();
+    transitLayer.setMap(map);
+  }
+</script>
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAXYSD4yxb7odB5Z_m4L7atqgCn8E0nwP0&callback=initMap">
+</script>
