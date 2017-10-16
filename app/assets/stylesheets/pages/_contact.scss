@@ -38,4 +38,7 @@
   height: 400px;
   width: 75vw;
   margin: auto;
+  position: relative;
+  top: -60px;
+  z-index:10000;
 }
