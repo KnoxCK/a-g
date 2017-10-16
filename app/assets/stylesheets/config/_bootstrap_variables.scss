@@ -6,6 +6,14 @@
 // General style
 // $font-family-sans-serif:  $body-font;
 // $headings-font-family:    $headers-font;
+
+@import "fonts";
+$AdobeHebrew: 'AdobeHebrew-Regular';
+$Avenir: 'AvenirNextCondensed';
+$base-font: "Charter", "Helvetica", "sans-serif";
+$header-font: "AvenirNextCondensed", "Helvetica", "sans-serif";
+
+
 $body-bg:                 $light-gray;
 $font-size-base: 18px;
 
