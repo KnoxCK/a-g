@@ -1,16 +1,20 @@
-// Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
+@font-face {
+    font-family: 'AdobeHebrew-Regular';
+    src: font-url(asset-path("AdobeHebrew-Regular.otf")) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-// Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+@font-face {
+    font-family: 'AvenirNextCondensed';
+    src: font-url(asset-path("AvenirNextCondensed.ttc")) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
-// To use a font file (.woff) uncomment following lines
-// @font-face {
-//   font-family: "Font Name";
-//   src: font-url('FontFile.eot');
-//   src: font-url('FontFile.eot?#iefix') format('embedded-opentype'),
-//        font-url('FontFile.woff') format('woff'),
-//        font-url('FontFile.ttf') format('truetype')
-// }
-// $my-font: "Font Name";
+@font-face {
+    font-family: 'Charter';
+    src: font-url(asset-path("Charter.ttc")) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
