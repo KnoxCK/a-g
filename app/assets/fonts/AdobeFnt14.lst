@@ -1,0 +1,387 @@
+%!Adobe-FontList 1.14
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:AdobeHebrew-Regular
+FamilyName:Adobe Hebrew
+StyleName:Regular
+MenuName:Adobe Hebrew
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Adobe Hebrew Regular
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Hebrew
+OutlineFileName:\AdobeHebrew-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:73124
+FileModTime:1385919203
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-Bold
+FamilyName:Avenir Next Condensed
+StyleName:Bold
+MenuName:Avenir Next Condensed
+StyleBits:2
+WeightClass:700
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Bold
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:72
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-BoldItalic
+FamilyName:Avenir Next Condensed
+StyleName:Bold Italic
+MenuName:Avenir Next Condensed
+StyleBits:0
+WeightClass:700
+WidthClass:3
+AngleClass:1
+FullName:Avenir Next Condensed Bold Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:356
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-DemiBold
+FamilyName:Avenir Next Condensed
+StyleName:Demi Bold
+MenuName:Avenir Next Condensed Demi Bold
+StyleBits:0
+WeightClass:600
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Demi Bold
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:640
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-DemiBoldItalic
+FamilyName:Avenir Next Condensed
+StyleName:Demi Bold Italic
+MenuName:Avenir Next Condensed Demi Bold
+StyleBits:0
+WeightClass:600
+WidthClass:3
+AngleClass:1
+FullName:Avenir Next Condensed Demi Bold Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:924
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-Italic
+FamilyName:Avenir Next Condensed
+StyleName:Italic
+MenuName:Avenir Next Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:1
+FullName:Avenir Next Condensed Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:1208
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-Medium
+FamilyName:Avenir Next Condensed
+StyleName:Medium
+MenuName:Avenir Next Condensed Medium
+StyleBits:0
+WeightClass:500
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Medium
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:1492
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-MediumItalic
+FamilyName:Avenir Next Condensed
+StyleName:Medium Italic
+MenuName:Avenir Next Condensed Medium
+StyleBits:1
+WeightClass:500
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Medium Condensed Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:1776
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-Regular
+FamilyName:Avenir Next Condensed
+StyleName:Regular
+MenuName:Avenir Next Condensed
+StyleBits:0
+WeightClass:400
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Regular
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:2060
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-Heavy
+FamilyName:Avenir Next Condensed
+StyleName:Heavy
+MenuName:Avenir Next Condensed Heavy
+StyleBits:0
+WeightClass:900
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Heavy
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:2344
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-HeavyItalic
+FamilyName:Avenir Next Condensed
+StyleName:Heavy Italic
+MenuName:Avenir Next Condensed Heavy
+StyleBits:0
+WeightClass:900
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Heavy Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:2628
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-UltraLight
+FamilyName:Avenir Next Condensed
+StyleName:Ultra Light
+MenuName:Avenir Next Condensed Ultra Light
+StyleBits:0
+WeightClass:275
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Ultra Light
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:2912
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:AvenirNextCondensed-UltraLightItalic
+FamilyName:Avenir Next Condensed
+StyleName:Ultra Light Italic
+MenuName:Avenir Next Condensed Ultra Light
+StyleBits:0
+WeightClass:275
+WidthClass:3
+AngleClass:0
+FullName:Avenir Next Condensed Ultra Light Italic
+WritingScript:Roman
+OutlineFileName:\Avenir Next Condensed.ttc
+TTCOffset:3196
+DataFormat:sfntData
+FileLength:2794276
+FileModTime:1363106748
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-Roman
+FamilyName:Charter
+StyleName:Roman
+MenuName:Charter
+StyleBits:0
+WeightClass:400
+WidthClass:5
+AngleClass:0
+FullName:Charter Roman
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:48
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-Italic
+FamilyName:Charter
+StyleName:Italic
+MenuName:Charter
+StyleBits:1
+WeightClass:400
+WidthClass:5
+AngleClass:1
+FullName:Charter Italic
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:380
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-BoldItalic
+FamilyName:Charter
+StyleName:Bold Italic
+MenuName:Charter
+StyleBits:1
+WeightClass:700
+WidthClass:5
+AngleClass:1
+FullName:Charter BT Bold Italic
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:712
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-Bold
+FamilyName:Charter
+StyleName:Bold
+MenuName:Charter
+StyleBits:0
+WeightClass:700
+WidthClass:5
+AngleClass:0
+FullName:Charter Bold
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:1044
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-BlackItalic
+FamilyName:Charter
+StyleName:Black Italic
+MenuName:Charter Black
+StyleBits:3
+WeightClass:900
+WidthClass:5
+AngleClass:1
+FullName:Charter Black Italic
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:1376
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Charter-Black
+FamilyName:Charter
+StyleName:Black
+MenuName:Charter Black
+StyleBits:2
+WeightClass:900
+WidthClass:5
+AngleClass:0
+FullName:Charter Black
+WritingScript:Roman
+OutlineFileName:\Charter.ttc
+TTCOffset:1660
+DataFormat:sfntData
+FileLength:2097188
+FileModTime:1445643132
+%EndFont
+
