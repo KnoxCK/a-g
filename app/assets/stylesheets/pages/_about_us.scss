@@ -6,6 +6,8 @@
   margin-top: 270px;
   width: 100%;
   display: flex;
+  margin-bottom: 200px;
+  padding-bottom: 50px;
 }
 .about-content {
   display: flex;
@@ -16,7 +18,7 @@
   z-index: 10000;
   margin: 15px 55px;
   h4 {
-    padding: 190px 50px 40px 5vw;
+    padding: 190px 50px 116px 5vw;
     color: white;
     width: 53vw;
     background-color: #39414B;
@@ -35,32 +37,70 @@
   margin-top: 60px;
 }
 .about-us-circle-1 {
-    z-index: 200000 !important;
-    position: relative;
-    margin-top: 38px;
-  img {
-    width: 320px;
-    margin-right: 150px;
-  }
+  z-index: 200000 !important;
+  position: relative;
+  margin-top: 38px;
+  margin-right: 200px;
+  width: 380px;
   p {
     position: absolute;
-    left: 118px;
+    left: 65px;
     top: 100px;
-    width: 172px;
+    width: 238px;
   }
+}
+.circle1 {
+  width: 320px;
+}
+.real-estate-title {
+  width: 250px;
 }
 .about-us-circle-2 {
   position: relative;
-  img {
-    width: 320px;
-    z-index: 15000;
-    margin-left: 240px;
-  }
+  width: 380px;
   p {
     position: absolute;
-    width: 172px;
-    left: 309px;
-    bottom: 122px;
+    width: 314px;
+    left: 244px;
+    bottom: 74px;
     text-align: center;
   }
 }
+.circle2 {
+  width: 320px;
+  z-index: 15000;
+  margin-left: 240px;
+}
+.investment-title {
+  width: 323px;
+}
+
+@media only screen and (min-width: 1574px) {
+  .about-content h4 {
+    padding-top: 245px;
+  }
+}
+@media only screen and (max-width: 1586px) {
+  .about-us-circle-1 {
+    margin-right: 0;
+    left: -50px;
+  }
+  .about-us-circle-2 {
+    p {
+      left: 55px;
+    }
+  }
+  .circle2 {
+    margin-left: 50px;
+    margin-top: 23px;
+  }
+}
+
+
+
+
+
+
+
+
+
