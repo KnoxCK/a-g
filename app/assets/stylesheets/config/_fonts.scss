@@ -1,3 +1,10 @@
+// @import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700,800");
+
+// $body-font: "Montserrat", "sans-serif", "Helvetica", "sans-serif";
+// $headers-font: "Montserrat", "serif", "Helvetica", "sans-serif";
+
+
+
 @font-face {
     font-family: 'AdobeHebrew-Regular';
     src: font-url(asset-path("AdobeHebrew-Regular.otf")) format('opentype');
@@ -18,3 +25,4 @@
     font-weight: normal;
     font-style: normal;
 }
+

@@ -24,11 +24,17 @@
     background-color: #39414B;
     opacity: 0.9;
     text-align: left;
-    font-weight: lighter;
-    letter-spacing: 1px;
+    font-weight: normal;
+    letter-spacing: 0px;
+    font-stretch: ultra-condensed !important;
   }
   span {
     color: #ffec3b;
+  }
+  strong {
+    font-weight: 800;
+    letter-spacing: 1px;
+    font-size: 26px;
   }
 }
 .about-strip {
