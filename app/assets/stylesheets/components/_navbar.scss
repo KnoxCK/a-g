@@ -9,7 +9,7 @@
   justify-content: space-between;
   z-index: 50000;
   position: fixed;
-  max-width: 100vw;
+  width: 100%;
 }
 
 /* Right section */
@@ -42,7 +42,7 @@
   }
 }
 .navbar-abg-submark {
-    width: 692px;
+    width: 352px;
     margin-top: 64px;
     margin-left: 30px;
 }
@@ -79,9 +79,15 @@
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
 }
+.dropdown-menu {
+  padding: 40px 0;
+}
 @media only screen and (max-width: 489px) {
   .navbar-abg-submark {
-    width: 508px;
+    width: 242px;
     margin-left: -6px;
+  }
+  .navbar-abg {
+    width: 100vw;
   }
 }

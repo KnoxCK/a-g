@@ -75,10 +75,11 @@
   align-content: center;
   z-index: 0;
 }
-.landing-strapline {
-  width: 50%;
+@media only screen and (max-width: 462px) {
+  .landing-strapline {
+    width: 50%;
+  }
 }
-
 
 
 
