@@ -35,7 +35,7 @@
 .contact-details {
   margin: 12px 0 280px 250px;
   text-align: left;
-  font-size: 22px;
+  font-size: 20px;
   font-weight: bold;
   a {
     color: white;
@@ -46,11 +46,11 @@
   }
 }
 .globe {
-  width: 40px;
+  width: 30px;
   margin-right: 40px;
 }
 .phone {
-  width: 40px;
+  width: 30px;
   margin-right: 40px;
 }
 #map {
@@ -80,11 +80,11 @@
     top: 566px;
   }
   .globe {
-    width: 29px;
+    width: 19px;
     margin-right: 18px;
   }
   .phone {
-    width: 29px;
+    width: 19px;
     margin-right: 18px;
   }
 }
@@ -100,7 +100,7 @@
 @media only screen and (max-width: 489px) {
   .contact-content {
     h4, a {
-      font-size: 18px;
+      font-size: 15px;
     }
   }
 }

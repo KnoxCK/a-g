@@ -27,14 +27,15 @@
     font-weight: normal;
     letter-spacing: 0px;
     font-stretch: ultra-condensed !important;
+    font-size: 20px;
   }
   span {
-    color: #ffec3b;
+    font-weight: bold;
   }
   strong {
     font-weight: 800;
     letter-spacing: 1px;
-    font-size: 26px;
+    font-size: 23px;
   }
 }
 .about-strip {
@@ -48,11 +49,11 @@
   position: relative;
   margin-top: 38px;
   margin-right: 200px;
-  width: 380px;
+  width: 277px;
   p {
     position: absolute;
-    left: 65px;
-    top: 100px;
+    left: 72px;
+    top: 90px;
     width: 238px;
   }
 }
@@ -60,7 +61,7 @@
   width: 320px;
 }
 .real-estate-title {
-  width: 250px;
+  width: 218px;
 }
 .about-us-circle-2 {
   position: relative;
@@ -71,7 +72,7 @@
     position: absolute;
     width: 314px;
     left: 37px;
-    bottom: 64px;
+    bottom: 81px;
     text-align: center;
   }
 }
@@ -79,7 +80,7 @@
   width: 320px;
 }
 .investment-title {
-  width: 323px;
+  width: 277px;
 }
 
 @media only screen and (min-width: 1574px) {
