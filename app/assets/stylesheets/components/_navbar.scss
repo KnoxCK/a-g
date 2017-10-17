@@ -9,7 +9,7 @@
   justify-content: space-between;
   z-index: 50000;
   position: fixed;
-  width: 100%;
+  max-width: 100vw;
 }
 
 /* Right section */
@@ -46,6 +46,9 @@
     margin-top: 64px;
     margin-left: 30px;
 }
+*:before, *:after {
+  color: #E5E5E4;
+}
 /* Dropdown menu */
 .navbar-landing-abg-dropdown-menu {
   margin-top: 15px;
@@ -75,4 +78,10 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+@media only screen and (max-width: 489px) {
+  .navbar-abg-submark {
+    width: 508px;
+    margin-left: -6px;
+  }
 }

@@ -1,7 +1,11 @@
 <%= render 'shared/landing_navbar' %>
 <div class="banner wrapper">
-	<div class="banner-content">
+	<div class="banner-content hidden-md hidden-sm hidden-xs">
 		<%= image_tag "Aschenbrenner_logo_main.png", class: "landing-logo" %>
+	    <%= image_tag "Aschenbrenner_strapline.png", class: "landing-strapline" %>
+  	</div>
+  	<div class="banner-content hidden-xl hidden-lg">
+		<%= image_tag "Aschenbrenner_logo_main_small.png", class: "landing-logo" %>
 	    <%= image_tag "Aschenbrenner_strapline.png", class: "landing-strapline" %>
   	</div>
   	<div class="faded-logo fadeIn hidden hidden-xs hidden-sm">

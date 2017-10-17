@@ -57,19 +57,19 @@
 }
 .about-us-circle-2 {
   position: relative;
+  z-index: 15000;
   width: 380px;
+  margin-left: 240px;
   p {
     position: absolute;
     width: 314px;
-    left: 244px;
-    bottom: 74px;
+    left: 37px;
+    bottom: 64px;
     text-align: center;
   }
 }
 .circle2 {
   width: 320px;
-  z-index: 15000;
-  margin-left: 240px;
 }
 .investment-title {
   width: 323px;
@@ -86,21 +86,121 @@
     left: -50px;
   }
   .about-us-circle-2 {
+    margin-left: 140px;
     p {
-      left: 55px;
+      left: 34px;
     }
   }
-  .circle2 {
-    margin-left: 50px;
-    margin-top: 23px;
+}
+@media only screen and (max-width: 1304px) {
+  .about-us-circle-2 {
+    margin-left: 0px;
+    margin-top: 20px;
   }
 }
-
-
-
-
-
-
+@media only screen and (max-width: 1086px) {
+  .about-wrapper {
+    flex-direction: column;
+  }
+  .about-content {
+    h4 {
+      width: 100%;
+    }
+  }
+  .circles {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+  }
+  .about-us-circle-1 {
+    z-index: 200000 !important;
+    position: relative;
+    margin-top: 0px;
+    margin-right: 0px;
+    width: 380px;
+    left: 0;
+    p {
+      position: absolute;
+      left: 65px;
+      top: 100px;
+      width: 238px;
+    }
+  }
+  .about-us-circle-2 {
+    margin-top: 0;
+    p {
+      left: 30px;
+      bottom: 69px;
+    }
+  }
+  .investment-title {
+    width: 313px;
+  }
+}
+@media only screen and (max-width: 769px) {
+  .about-content {
+    margin: 15px 20px;
+    h4 {
+      padding: 190px 16px 116px 5vw
+    }
+  }
+  .circles {
+    flex-direction: column;
+    align-items: center;
+  }
+  .circle1, .circle2 {
+    width: 390px;
+  }
+  .about-us-circle-1 p {
+    left: 75px;
+    top: 113px;
+  }
+  .about-us-circle-1 p {
+    left: 75px;
+    top: 113px;
+  }
+  .about-us-circle-2 {
+    margin-top: 20px;
+    p {
+      left: 41px;
+      bottom: 115px;
+    }
+  }
+}
+@media only screen and (max-width: 414px) {
+  .about-content {
+    margin: 15px 20px;
+    h4 {
+      padding: 190px 16px 116px 5vw
+    }
+  }
+  .circle1, .circle2 {
+    width: 290px;
+  }
+  .about-us-circle-1 p {
+    top: 78px;
+  }
+  .about-us-circle-2 p {
+    left: 75px;
+    bottom: 57px;
+    width: 225px;
+    left: 79px;
+  }
+  .investment-title {
+    width: 228px;
+  }
+  .real-estate-title {
+    width: 190px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .about-us-circle-1 {
+    width: 277px;
+    p {
+      left: 30px;
+    }
+  }
+}
 
 
 
