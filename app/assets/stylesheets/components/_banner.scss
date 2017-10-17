@@ -42,7 +42,7 @@
 }
 .landing-strapline {
   width: 30%;
-  margin-right: 20px;
+  margin-right: 14px;
   margin-bottom: 150px;
 }
 @media only screen and (max-width: 462px) {
@@ -75,10 +75,11 @@
   align-content: center;
   z-index: 0;
 }
-
-
-
-
+@media only screen and (max-width: 462px) {
+  .landing-strapline {
+    width: 50%;
+  }
+}
 
 
 

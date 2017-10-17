@@ -42,9 +42,12 @@
   }
 }
 .navbar-abg-submark {
-    width: 692px;
+    width: 352px;
     margin-top: 64px;
     margin-left: 30px;
+}
+*:before, *:after {
+  color: #E5E5E4;
 }
 /* Dropdown menu */
 .navbar-landing-abg-dropdown-menu {
@@ -75,4 +78,16 @@
   transform: rotate(45deg);
   border-left: 1px solid #E6E6E6;
   border-top: 1px solid #E6E6E6;
+}
+.dropdown-menu {
+  padding: 40px 0;
+}
+@media only screen and (max-width: 489px) {
+  .navbar-abg-submark {
+    width: 242px;
+    margin-left: -6px;
+  }
+  .navbar-abg {
+    width: 100vw;
+  }
 }
